@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      minWidth: {
+        'menu': '200px',
+      },
       fontFamily: {
         default: ['Nunito Sans', 'sans-serif'],
       },

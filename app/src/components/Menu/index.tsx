@@ -19,7 +19,7 @@ export default function Menu() {
       <div
         className={`fixed top-0 left-0 right-0 h-full bg-neutral-op-050 flex justify-end ${menuDisplay}`}
       >
-        <nav className="bg-neutral-150 w-2/3 h-full px-8 py-4 flex flex-col">
+        <nav className="bg-neutral-150 w-2/3 h-full px-8 py-4 flex flex-col min-w-menu">
           <button 
             type="button" 
             onClick={() => setMenuActive(false)}
