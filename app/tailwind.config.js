@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        banner: 'url("/img/banner.svg")'
+      },
       minWidth: {
         'menu': '200px',
       },

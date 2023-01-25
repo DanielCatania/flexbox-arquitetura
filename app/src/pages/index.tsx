@@ -1,9 +1,3 @@
-import Header from "@/patterns/Header";
+import HomeScreen  from "@/screens/HomeScreen";
 
-export default function Home() {
-  return (
-    <>
-      <Header />
-    </>
-  )
-}
+export default HomeScreen;
