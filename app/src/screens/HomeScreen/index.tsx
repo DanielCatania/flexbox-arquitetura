@@ -1,8 +1,8 @@
 import Header from "@/patterns/Header";
 import Footer from "@/patterns/Footer";
-import Banner from "@/screens/HomeScreen/Banner";
-import About from "@/screens/HomeScreen/About";
-import Horizon from "@/screens/HomeScreen/Horizon";
+import Banner from "./Banner";
+import About from "./About";
+import Horizon from "./Horizon";
 
 export default function Home() {
   return (
