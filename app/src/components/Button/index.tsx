@@ -23,8 +23,8 @@ export default function Button({
   const darkTheme = "bg-primary-150 border-primary-050 text-primary-100";
   const lightTheme = "bg-primary-050 border-primary-150 text-primary-150";
 
-  const defaultStyle = "px-6 py-3 w-1/4 rounded-2xl border-2 text-center";
-  const largeStyle = `md:px-6 md:py-2 md:w-1/2 ${defaultStyle}`;
+  const defaultStyle = "px-4 py-2 w-1/3 rounded-2xl border-2 text-center";
+  const largeStyle = `md:px-6 md:w-1/2 ${defaultStyle}`;
 
   const style = `${theme === "light" ? lightTheme : darkTheme} ${size === "default" ? defaultStyle : largeStyle}`;  
 
