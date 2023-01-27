@@ -4,7 +4,7 @@ import Button from "@/components/Button";
 export default function About() {
   return (
     <section 
-      className="bg-neutral-150 flex flex-col md:p-16 p-8 md:gap-8 gap-4 md:w-1/2"
+      className="bg-neutral-150 flex flex-col justify-center md:px-16 px-8 md:py-8 py-4 md:gap-8 gap-4 md:w-1/2"
     >
       <Text 
         size="xl"
