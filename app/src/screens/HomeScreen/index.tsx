@@ -3,6 +3,7 @@ import Footer from "@/patterns/Footer";
 import Banner from "./Banner";
 import About from "./About";
 import Horizon from "./Horizon";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
@@ -11,7 +12,12 @@ export default function Home() {
     >
       <Header />
       <Banner />
-      <About />
+      <div
+        className="flex flex-col md:flex-row"
+      >
+        <About />
+        <Projects />
+      </div>
       <Horizon />
       <Footer />
     </main>
