@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        banner: 'url("/img/banner.svg")'
+        banner: 'url("/img/banner.svg")',
+        horizon: 'url("/img/horizon.svg")',
       },
       minWidth: {
         'menu': '200px',
