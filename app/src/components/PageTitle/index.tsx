@@ -7,7 +7,7 @@ export interface IPageTitle {
 export default function PageTitle({ title }: IPageTitle) {
   return (
     <section
-      className="flex items-center justify-center bg-horizon bg-cover bg-no-repeat w-full h-1/4 md:h-1/3 lg:h-1/2"
+      className="flex items-center justify-center bg-horizon bg-cover bg-no-repeat w-full py-8 md:py-16 lg:py-24"
     >
       <Text
         size="ut"
