@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import Text from "@/components/Text";
 import NextLink from "next/link";
+import scroll from "@/styles/scroll";
 
 export interface IProject {
   urlImage: string;
@@ -35,31 +36,7 @@ export default function Projects() {
     <section
       className="md:w-1/2 md:px-16 px-8 md:py-8 py-4 pr-0 md:pr-0 flex flex-col md:gap-4 gap-2"
     >
-      <style jsx>{`
-        ::-webkit-scrollbar {
-          height: 5px;
-        }
-
-        @media screen and (max-width: 500px) {
-          ::-webkit-scrollbar {
-            display: none;
-          }
-        }
-
-        ::-webkit-scrollbar-track {
-          background: #D3DBCF;
-          border-radius: 5px;
-        }
-        
-        ::-webkit-scrollbar-thumb {
-          background: #A3C1D9;
-          border-radius: 5px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-          background: #5E9FD1; 
-        }
-      `}</style>
+      <style jsx>{scroll}</style>
       <Text
         size="xl"
         className="text-primary-100 pb-6"
